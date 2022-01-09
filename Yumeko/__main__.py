@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-YUMEKO_IMG = "https://telegra.ph/file/e0040466048302df1a451.mp4"
+YUMEKO_IMG = ""
 
 PM_START_TEXT = """
-**Hey I am Yumeko** [ㅤ](https://telegra.ph/file/6643b0fb6792b2e5e844a.mp4)
+**Hey I am Horimiya Bot** [ㅤ]()
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **×I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -89,7 +89,7 @@ buttons = [
     [
         InlineKeyboardButton(text="About", callback_data="yumeko_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/"
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Horimiya_Family"
         ),
     ],
     [
