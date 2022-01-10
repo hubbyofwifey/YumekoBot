@@ -44,7 +44,7 @@ def cb_sticker(update: Update, context: CallbackContext):
     msg = update.effective_message
     split = msg.text.split(" ", 1)
     if len(split) == 1:
-        msg.reply_text("Provide some name to search for pack.")
+        msg.reply_text("Give name of what are you searching.")
         return
 
     scraper = cloudscraper.create_scraper()
